@@ -7,41 +7,24 @@ configure_yubikey: true
 
 configure_shell: true
 
-configure_vscode: true
-
-# generate /etc/hosts & ~/.ssh/config
-configure_hosts: true
-ssh_config:
-  - { ip: 192.168.5.20, host: aida, user: nik }
-  - { ip: 192.168.5.21, host: kora, user: nik, forward: true }
-  - { ip: 192.168.20.5, host: bob }
-  - { ip: 192.168.20.10, host: simmons, user: nik }
-  - { ip: 5.45.108.206, host: lamafarm, port: 50937 }
-  - { ip: 5.45.108.206, host: lasse, user: nik, port: 25564 }
-  - { ip: matrix.lounge.rocks, host: the-bus, user: nik }
-  - { ip: wg.nik-ste.de, host: the-hub, user: nik }
-  - { ip: 202.61.248.243, host: mobi }
-  - { ip: oracle-aarch64-runner-1.lounge.rocks, host: oracle-aarch64-runner-1 }
-  - { ip: netcup-x86-runner-1.lounge.rocks, host: netcup-x86-runner-1 }
-
 # generate ssh key
-configure_ssh: false
+configure_ssh: true
 ssh_path: ~/.ssh/id_rsa
 ssh_size: 4096
 ssh_comment: macbook
 
 # configure git config
 configure_git: true
-git_mail: info@niklas-steffen.de
-git_name: MayNiklas
+git_mail: 51420514+building-from-source@users.noreply.github.com
+git_name: building-from-source
 git_ignore:
   - "### macOS ###"
   - "# General"
   - .DS_Store
   - .AppleDouble
   - .LSOverride
-  - "# nix build file"
-  - result
+  - "## Python"
+  - ".venv/"
   - "## Core latex/pdflatex auxiliary files:"
   - "*.aux"
   - "*.lof"
@@ -65,48 +48,34 @@ homebrew_taps:
 
 homebrew_apps:
   - adobe-creative-cloud
-  - balenaetcher
   - discord
-  - element
   - firefox
   - github
-  - jetbrains-toolbox
   - mactex-no-gui
   - signal
   - spotify
   - sublime-text
   - synology-drive
-  - telegram
   - visual-studio-code
-  - vlc
-  - wireshark
   - yubico-authenticator
   - zoom
 
 homebrew_packages:
   - ansible
   - ansible-lint
-  - asciinema
-  - asciinema
-  - go
-  - hugo
   - iperf3
   - nmap
   - pre-commit
-  - wakeonlan
-  - wget
 
 # install stuff via app Store
 configure_mas: true
 mas_apps:
   - { name: 1Password 7 - Password Manager, id: 1295203466 }
   - { name: Apple Configurator 2, id: 1037126344 }
-  - { name: Final Cut Pro, id: 424389933 }
   - { name: Magnet, id: 1333542190 }
   - { name: Microsoft Excel, id: 1482454543 }
   - { name: Microsoft Word, id: 462054704 }
   - { name: Microsoft Remote Desktop, id: 639968404 }
   - { name: Parcel - Delivery Tracking, id: 462058435 }
-  - { name: Twitter, id: 1451685025 }
   - { name: WhatsApp Desktop, id: 1147396723 }
   - { name: WireGuard, id: 441258766 }

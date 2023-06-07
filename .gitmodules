@@ -18,10 +18,4 @@
 	url = https://github.com/MayNiklas/ansible-mas.git
 [submodule "roles/ansible-shell-mac"]
 	path = roles/ansible-shell-mac
-	url = https://github.com/MayNiklas/ansible-shell-mac.git
-[submodule "ansible-hosts"]
-	path = roles/ansible-hosts
-	url = https://github.com/MayNiklas/ansible-hosts.git
-[submodule "roles/ansible-vscode"]
-	path = roles/ansible-vscode
-	url = https://github.com/MayNiklas/ansible-vscode.git
+	url = https://github.com/building-from-source/ansible-shell-mac.git
