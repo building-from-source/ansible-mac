@@ -73,9 +73,9 @@ mas_apps:
   - { name: 1Password 7 - Password Manager, id: 1295203466 }
   - { name: Apple Configurator 2, id: 1037126344 }
   - { name: Magnet, id: 1333542190 }
-  - { name: Microsoft Excel, id: 1482454543 }
-  - { name: Microsoft Word, id: 462054704 }
+  - { name: Microsoft Excel, id: 462058435 }
   - { name: Microsoft Remote Desktop, id: 639968404 }
-  - { name: Parcel - Delivery Tracking, id: 462058435 }
+  - { name: Microsoft Word, id: 462054704 }
+  - { name: Parcel - Delivery Tracking, id: 639968404 }
   - { name: WhatsApp Desktop, id: 1147396723 }
   - { name: WireGuard, id: 441258766 }
