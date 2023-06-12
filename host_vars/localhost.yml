@@ -45,11 +45,13 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
+  - homebrew/cask-versions
 
 homebrew_apps:
   - adobe-creative-cloud
   - discord
   - firefox
+  - firefox-developer-edition
   - github
   - mactex-no-gui
   - signal
