@@ -49,6 +49,7 @@ homebrew_taps:
 
 homebrew_apps:
   - adobe-creative-cloud
+  - anki
   - discord
   - firefox
   - firefox-developer-edition
