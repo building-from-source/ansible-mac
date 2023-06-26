@@ -54,6 +54,7 @@ homebrew_apps:
   - firefox
   - firefox-developer-edition
   - github
+  - google-chrome
   - mactex-no-gui
   - mpv
   - plex
