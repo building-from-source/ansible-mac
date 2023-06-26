@@ -62,7 +62,6 @@ homebrew_apps:
   - sublime-text
   - synology-drive
   - visual-studio-code
-  - yt-dlp
   - yubico-authenticator
   - zoom
 
@@ -72,6 +71,7 @@ homebrew_packages:
   - iperf3
   - nmap
   - pre-commit
+  - yt-dlp
 
 # install stuff via app Store
 configure_mas: true
