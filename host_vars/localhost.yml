@@ -55,6 +55,7 @@ homebrew_apps:
   - firefox-developer-edition
   - github
   - mactex-no-gui
+  - mpv
   - plex
   - signal
   - spotify
