@@ -62,6 +62,7 @@ homebrew_apps:
   - sublime-text
   - synology-drive
   - visual-studio-code
+  - yt-dlp
   - yubico-authenticator
   - zoom
 
