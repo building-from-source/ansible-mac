@@ -67,8 +67,10 @@ homebrew_apps:
   - zoom
 
 homebrew_packages:
+  - alass
   - ansible
   - ansible-lint
+  - ffmpeg
   - iperf3
   - nmap
   - pre-commit
