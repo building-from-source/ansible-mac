@@ -42,38 +42,56 @@ git_ignore:
 # install stuff via brew
 configure_brew: true
 homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
   - homebrew/cask-drivers
   - homebrew/cask-versions
 
 homebrew_apps:
   - adobe-creative-cloud
   - anki
-  - discord
+  - calibre
+  - citra
   - firefox
   - firefox-developer-edition
   - github
   - google-chrome
+  - google-japanese-ime
+  - jetbrains-toolbox
   - mactex-no-gui
+  - minecraft
   - mpv
   - plex
+  - rstudio
   - signal
   - spotify
   - sublime-text
   - synology-drive
   - visual-studio-code
+  - vlc
   - yubico-authenticator
   - zoom
+  - zotero
+  - zwift
+
+# homebrew_apps_removed:
+- discord
+
+
+# warning: after installing rustup-init, you need to run `rustup-init` manually!
 
 homebrew_packages:
   - alass
   - ansible
   - ansible-lint
   - ffmpeg
+  - geckodriver
+  - hugo
   - iperf3
+  - latexindent
   - nmap
   - pre-commit
+  - r
+  - ripgrep
+  - rustup-init
   - yt-dlp
 
 # install stuff via app Store
@@ -86,7 +104,10 @@ mas_apps:
   - { name: Microsoft Remote Desktop, id: 639968404 }
   - { name: Microsoft Word, id: 462054704 }
   - { name: Parcel - Delivery Tracking, id: 639968404 }
-  - { name: WhatsApp Desktop, id: 1147396723 }
+  - { name: Tacx Training, id: 892366151 }
+  - { name: WhatsApp Desktop, id: 310633997 }
   - { name: WireGuard, id: 441258766 }
   - { name: Dictionaries, id: 1380563956 }
   - { name: 10ten, id: 1573540634 }
+  - { name: Kindle, id: 405399194 }
+  - { name: The Unarchiver, id: 425424353 }
